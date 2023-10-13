@@ -1,0 +1,42 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+
+/* header */
+
+header{
+    grid-column: 1/ -1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding:20px 40px;
+    border-bottom: 1px solid black;
+}
+
+header nav{
+    justify-self: end;
+}
+
+header nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* welcome */
+img{
+    max-width: 100%;
+}
+
+.welcome-section{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 20px 40px;
+}
