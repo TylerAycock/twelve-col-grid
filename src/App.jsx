@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="wrapper">
-      <header>
+    <>
+      <header className="grid">
         <h1>My 12 Col Grid</h1>
         <nav>
           <a href="">Home</a>
@@ -11,9 +11,9 @@ function App() {
           <a href="">Contact</a>
         </nav>
       </header>
-      <div className="welcome-section">
-        <img src="https://source.unsplash.com/random" alt="random img" />
-        <div className="welcome-blurb">
+      <main className="grid">
+        <img src="https://source.unsplash.com/random" alt="random img" className="img"/>
+        <div className="welcome">
           <h2>Welcome</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
@@ -25,36 +25,36 @@ function App() {
             officia repellendus, rem id nesciunt sequi iste sit.
           </p>
         </div>
-      </div>
-      <h2>Services</h2>
-      <div className="container">
-        <h3>Hello</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.
-          Exercitationem dolor distinctio reprehenderit labore, quas est impedit
-          alias laborum nemo, placeat, tempora officia architecto facere
-          accusamus ut vero repellendus.
-        </p>
-      </div>
-      <div className="container">
-        <h3>Hello</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.
-          Exercitationem dolor distinctio reprehenderit labore, quas est impedit
-          alias laborum nemo, placeat, tempora officia architecto facere
-          accusamus ut vero repellendus.
-        </p>
-      </div>
-      <div className="container">
-        <h3>Hello</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.
-          Exercitationem dolor distinctio reprehenderit labore, quas est impedit
-          alias laborum nemo, placeat, tempora officia architecto facere
-          accusamus ut vero repellendus.
-        </p>
-      </div>
-    </div>
+        <h2 className="services">Services</h2>
+        <div className="container">
+          <h3>Hello</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            magni. Exercitationem dolor distinctio reprehenderit labore, quas
+            est impedit alias laborum nemo, placeat, tempora officia architecto
+            facere accusamus ut vero repellendus.
+          </p>
+        </div>
+        <div className="container">
+          <h3>Hello</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            magni. Exercitationem dolor distinctio reprehenderit labore, quas
+            est impedit alias laborum nemo, placeat, tempora officia architecto
+            facere accusamus ut vero repellendus.
+          </p>
+        </div>
+        <div className="container">
+          <h3>Hello</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            magni. Exercitationem dolor distinctio reprehenderit labore, quas
+            est impedit alias laborum nemo, placeat, tempora officia architecto
+            facere accusamus ut vero repellendus.
+          </p>
+        </div>
+      </main>
+    </>
   );
 }
 
